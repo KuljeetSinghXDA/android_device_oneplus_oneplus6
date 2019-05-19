@@ -1,12 +1,5 @@
 [
   {
-    "remote": "mtresk",
-    "repository": "android_frameworks_native",
-    "target_path": "frameworks/native",
-    "revision": "android-9.0-caf",
-    "override": "android_frameworks_native"
-  },
-  {
     "remote": "omnirom",
     "repository": "android_packages_apps_SnapdragonCamera2",
     "target_path": "packages/apps/SnapdragonCamera2",
@@ -28,12 +21,6 @@
     "remote": "omnirom",
     "repository": "android_vendor_qcom_opensource_display-commonsys-intf",
     "target_path": "vendor/qcom/opensource/display-commonsys-intf",
-    "revision": "android-9.0"
-  },
-  {
-    "remote": "mtresk",
-    "repository": "android_kernel_oneplus_sdm845",
-    "target_path": "kernel/oneplus/sdm845",
     "revision": "android-9.0"
   },
   {
