@@ -37,8 +37,7 @@
     <SwitchPreference
         android:key="otg_switch"
         android:summary="@string/otg_switch_summary"
-        android:title="@string/otg_switch_title"
-        android:persistent="false" />
+        android:title="@string/otg_switch_title" />
 
     <PreferenceCategory
         android:title="@string/category_vibrator">
@@ -91,11 +90,22 @@ android:summary="@string/vib_notif_strength_summary_head" />
     <PreferenceCategory
         android:key="graphics"
         android:title="@string/graphics_title">
+        <!--<SwitchPreference
+            android:key="srgb"
+            android:summary="@string/srgb_mode_summary"
+            android:title="@string/srgb_mode_title" />
+        <SwitchPreference
+            android:key="dci"
+            android:summary="@string/dci_mode_summary"
+            android:title="@string/dci_mode_title" />-->
         <SwitchPreference
             android:key="hbm"
             android:summary="@string/hbm_mode_summary"
-            android:title="@string/hbm_mode_title"
-            android:persistent="false" />
+            android:title="@string/hbm_mode_title" />
+        <!--<SwitchPreference
+            android:key="night"
+            android:summary="@string/Night_mode_summary"
+            android:title="@string/Night_mode_title" />-->
         <Preference
             android:key="panel_category"
             android:title="@string/panel_category_title"
